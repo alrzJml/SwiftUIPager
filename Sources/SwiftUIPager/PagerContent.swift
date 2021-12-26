@@ -108,7 +108,7 @@ extension Pager {
         var allowsMultiplePagination: Bool = false
 
         /// Minimum distance for `Pager` to start scrolling
-        var minimumDistance: CGFloat = 15
+        var minimumDistance: CGFloat = 0.1
 
         /// Priority selected to add `swipeGesture`
         var gesturePriority: GesturePriority = .default
